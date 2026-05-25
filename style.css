@@ -1,0 +1,19 @@
+body { font-family: Arial; background: #f0f0f0; margin: 0; padding: 20px; }
+.container { max-width: 1000px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+.tabs { display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+.tabs a { padding: 8px 16px; text-decoration: none; background: #e0e0e0; border-radius: 5px; }
+.tabs a.active { background: #007bff; color: white; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background: #007bff; color: white; }
+.btn { display: inline-block; padding: 8px 16px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; margin: 5px 0; border: none; cursor: pointer; }
+.btn-danger { background: #dc3545; }
+.btn-sm { padding: 4px 8px; font-size: 12px; text-decoration: none; background: #007bff; color: white; border-radius: 3px; }
+.flash { background: #d4edda; color: #155724; padding: 10px; border-radius: 5px; margin: 10px 0; }
+.flash.error { background: #f8d7da; color: #721c24; }
+.search { display: flex; gap: 10px; margin: 15px 0; }
+.search input { flex: 1; padding: 8px; }
+.pagination { margin-top: 20px; display: flex; gap: 5px; }
+.pagination a { padding: 5px 10px; border: 1px solid #ddd; text-decoration: none; }
+.card { background: #f9f9f9; padding: 15px; border-radius: 5px; margin: 15px 0; }
+.card p { margin: 8px 0; border-bottom: 1px solid #eee; padding: 5px; }
